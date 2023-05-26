@@ -71,7 +71,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="flex mt-2 mx-auto px-4 py-9 justify-center">
+      <div className="flex my-10 mx-auto px-4 py-9 justify-center">
         <div className="flex-col w-1/2 justify-items-center mx-auto">
           <div className="lg:w-97 text-white">
             <h1 className='grid justify-items-end font-extrabold pe-10 text-8xl max-xl:text-7xl max-lg:text-5xl max-md:text-4xl max-sm:text-2xl'>My work</h1>
@@ -82,7 +82,7 @@ const Home = () => {
               is the best part to full fill there expections.</p>
           </div>
         </div>
-        <div className="flex-col w-1/2 justify-items-center">
+        <div id='library' className="flex-col w-1/2 justify-items-center">
           <div className="container text-center">
             <img className='h-52 mx-auto sm:hidden' src={libraryVertical} alt="" />
             <img className='mx-auto hidden sm:block' src={libraryHorizontal} alt="" />
@@ -180,7 +180,7 @@ const Home = () => {
         </div>
         <div className="w-full max-sm:h-32 max-lg:h-44 max-xl:h-60 h-72  bg-black self-end -z-10 drop-shadow-darkest"></div>
       </div>
-      <div className="flex mt-10 max-md:mt-0">
+      <div id='about' className="flex mt-10 max-md:mt-0">
         <div className="flex-col w-1/2">
           <div className="container w-105 max-xl:w-99 max-lg:w-85 max-md:w-68 max-sm:w-44 m-auto my-36 bg-white max-lg:p-2 max-sm:p-1 p-3 max-md:rounded-md rounded-lg">
             <img className='object-cover w-full h-64 max-sm:h-20 max-md:h-28 max-xl:h-44 max-lg:h-36 max-md:rounded-t-md rounded-t-lg pb-2 max-xl:pb-1 max-lg:pb-0' src={aboutImg} alt="" />
@@ -223,7 +223,7 @@ const Home = () => {
               </div>
               <div className="flex pb-7 max-lg:pb-5">
                 <div className="flex items-center">
-                  <div className="text-8xl max-xl:text-6xl max-lg:text-6xl max-md:text-5xl max-sm:text-3xl pt-4 px-7 max-xl:pt-5 max-xl:px-6 max-md:pt-4 max-md:px-4 max-md:pe-5 max-sm:pt-1 max-sm:px-3 shadow-super max-md:shadow-super-light rounded-lg max-md:rounded-md max-sm:rounded-md"><i className="fa-brands fa-square-facebook" style={{ "color": "#ffffff" }}></i></div>
+                  <div className="text-8xl max-xl:text-6xl max-lg:text-6xl max-md:text-5xl max-sm:text-3xl pt-4 px-7 max-xl:pt-5 max-xl:px-6 max-md:pt-4 max-md:px-4 max-md:pe-5 max-sm:pt-1 max-sm:px-3 shadow-super max-md:shadow-super-light rounded-lg max-md:rounded-md max-sm:rounded-md"><i className="fa-brands fa-facebook-f" ></i></div>
                   <div className="py-2 ps-5 max-lg:ps-4 max-md:ps-3 max-sm:ps-2 w-96 max-xl:w-80 max-lg:w-60 max-md:w-44 max-sm:w-28 ">
                     <h2 className='font-bold text-2xl max-xl:text-xl max-lg:text-lg max-md:text-base max-sm:text-xs'>Facebook</h2>
                     <p className='text-xs max-xl:text-xxs max-xl:leading-3 max-lg:text-xxs max-lg:leading-tight max-md:text-3xs max-sm:text-4xs max-sm:leading-none'>Meta Platforms, Inc., formerly named Facebook, Inc., and
