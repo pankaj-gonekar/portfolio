@@ -8,6 +8,8 @@ export default {
     extend: {
       colors: {
         'crimson-red': '#ed2024',
+        'crimson-red-2': '#de0523',
+        'dark' : '#272727',
       },
       fontSize: {
         'xsm': '0.6rem',
@@ -15,12 +17,14 @@ export default {
         'xxs': '0.55rem',
         '3xs': '0.4rem',
         '4xs': '0.3rem',
+        '12xl': '12rem',
       },
       lineHeight: {
         'super-loose': '0.7rem',
         '14' : '14rem',
       },
       width: {
+        '26' : '6.4rem',
         '38' : '9.5rem',
         '68': '17rem',
         '85':'22rem',
@@ -29,6 +33,7 @@ export default {
         '105': '35rem'
       },
       height: {
+        '26' : '6.4rem',
         '125': '45rem',
         '115': '35rem',
         '105': '29rem',
@@ -36,8 +41,7 @@ export default {
       dropShadow: {
         'dark' : '0 0 5px rgba(0, 0, 0, 0.5)',
         'darkest' : '0 0 8px rgba(0, 0, 0, 0.8)',
-        'white' : '0 0 5px rgba(255, 255, 255, 0.5)',
-        'bright' : '0 0 5px rgba(255, 255, 255, 0.9)',
+        'bright' : '0 0 5px rgba(255, 255, 255, 0.5)',
       },
       boxShadow : {
         'bottom-white' : '0px 4px 9px 7px white',

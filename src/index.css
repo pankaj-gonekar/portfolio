@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .dropdown {
+  position: relative;
+}
+    .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #272727;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.bg-body {
+  background: linear-gradient(90deg, #ed2024 50%, #ffffff 50%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg-red-body {
+  background: #de0523;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.bg-img {
+  background: url('./images/bg.svg');
+  background-repeat: no-repeat;
+  background-attachment: center;
+  background-size: cover;
+}
+}

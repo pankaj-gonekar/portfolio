@@ -7,7 +7,7 @@ import Navbar from './Navbar'
 const Home = () => {
 
   return (
-    <div className="w-full mx-auto">
+    <div className="w-full mx-auto bg-body">
       <div className="flex justify-end pt-3 px-5">
         <p className='text-sm max-sm:text-xsm max-sm:text-base/super-loose text-right'>Keep your imagination filled with diffrent<br />
           elements, it gives you stable<br />
@@ -24,7 +24,7 @@ const Home = () => {
         </div>
         <div className='flex-col max-sm:mt-0'>
           <div className="container text-right">
-            <h1 className='max-sm:text-6xl max-md:text-8xl max-lg:text-9xl max-xl:text-9xl max-2xl:text-14xl 2xl:text-14xl leading-14 animate-pulse cursor-pointer hover:text-red-600'><strong>there</strong></h1>
+            <h1 className='max-sm:text-6xl max-md:text-8xl max-lg:text-9xl max-xl:text-9xl max-2xl:text-14xl 2xl:text-14xl leading-14 animate-pulse cursor-pointer hover:text-red-600 font-bold'>there</h1>
             <p className='max-sm:text-xs max-md:text-2xl max-lg:text-3xl max-xl:text-3xl max-2xl:text-5xl 2xl:text-5xl leading-3'>it&apos;s <strong><span className='text-blue-800'>Vinay</span></strong> here</p>
           </div>
         </div>
@@ -36,7 +36,7 @@ const Home = () => {
         <svg className='fill-white hover:fill-black drop-shadow-dark animate-bounce' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" /></svg>
       </div>
       <Navbar />
-      <div className="flex flex-wrap justify-center py-11 mt-10 bg-black">
+      <div className="flex flex-wrap justify-center py-11 mt-10 bg-dark">
         <div className="flex p-4 text-white">
           <div className="max-sm:w-28 max-sm:h-36 max-md:w-32 max-md:h-40 max-lg:w-40 max-lg:h-48 w-48 h-56 bg-white items-center justify-center rounded-md">
           </div><div className="w-48 h-56 mx-6 items-center justify-center rounded-md">
