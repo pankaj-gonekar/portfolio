@@ -14,7 +14,7 @@ const Navbar = () => {
               <div className='bg-white h-7 max-sm:h-5 w-0.5 self-center'/>
               </li>
               <li className='bg-dark hover:bg-white hover:text-black font-bold inline-flex max-md:text-sm max-lg:text-base max-xl:text-base text-xl'>
-              <Dropdown menuName={'Library'} item_1={'LOGO DESIGN'} item_2={'POSTER DESIGN'} item_3={'WEB DESIGN'} item_4={'UI/UX DESIGN'} link_1={'/logodesign'} link_2={'/socialmedia'} link_3={'/skills'} />
+              <Dropdown menuName={'Library'} item_1={'LOGO DESIGN'} item_2={'POSTER DESIGN'} item_3={'WEB DESIGN'} item_4={'UI/UX DESIGN'} link_1={'/library'} link_2={'/socialmedia'} link_3={'/skills'} />
               <div className='bg-white h-7 max-sm:h-5 w-0.5 self-center'/>
               </li>
               <li className='bg-dark ps-3 inline-flex hover:bg-white hover:text-black font-bold max-md:text-sm max-lg:text-base max-xl:text-base text-xl'>

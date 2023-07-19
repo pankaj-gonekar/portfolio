@@ -34,4 +34,10 @@
   background-attachment: center;
   background-size: cover;
 }
+.lib-bg {
+  background: url('./images/libbg.svg');
+  background-repeat: no-repeat;
+  background-attachment: center;
+  background-size: cover;
+}
 }
